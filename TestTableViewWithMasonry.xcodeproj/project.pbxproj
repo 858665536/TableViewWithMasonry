@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100A8AF343623C5FD0A3177D /* libPods-TestTableViewWithMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CCD500977E55E336B1814C /* libPods-TestTableViewWithMasonry.a */; };
 		5A8E38101BA44F4C00F14B16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8E380F1BA44F4C00F14B16 /* main.m */; };
 		5A8E38131BA44F4C00F14B16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8E38121BA44F4C00F14B16 /* AppDelegate.m */; };
 		5A8E38161BA44F4C00F14B16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8E38151BA44F4C00F14B16 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		5A8E381B1BA44F4C00F14B16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8E381A1BA44F4C00F14B16 /* Images.xcassets */; };
 		5A8E381E1BA44F4C00F14B16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8E381C1BA44F4C00F14B16 /* LaunchScreen.xib */; };
 		5A8E382A1BA44F4C00F14B16 /* TestTableViewWithMasonryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8E38291BA44F4C00F14B16 /* TestTableViewWithMasonryTests.m */; };
+		5A8E38351BA44FF600F14B16 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8E38341BA44FF600F14B16 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4607BEE8A5A6F20C252C634B /* Pods-TestTableViewWithMasonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTableViewWithMasonry.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTableViewWithMasonry/Pods-TestTableViewWithMasonry.release.xcconfig"; sourceTree = "<group>"; };
 		5A8E380A1BA44F4C00F14B16 /* TestTableViewWithMasonry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTableViewWithMasonry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8E380E1BA44F4C00F14B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A8E380F1BA44F4C00F14B16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +43,10 @@
 		5A8E38231BA44F4C00F14B16 /* TestTableViewWithMasonryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableViewWithMasonryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8E38281BA44F4C00F14B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A8E38291BA44F4C00F14B16 /* TestTableViewWithMasonryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewWithMasonryTests.m; sourceTree = "<group>"; };
+		5A8E38331BA44FF600F14B16 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		5A8E38341BA44FF600F14B16 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		E47543F2AC32C5691240AAEC /* Pods-TestTableViewWithMasonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTableViewWithMasonry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTableViewWithMasonry/Pods-TestTableViewWithMasonry.debug.xcconfig"; sourceTree = "<group>"; };
+		F2CCD500977E55E336B1814C /* libPods-TestTableViewWithMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestTableViewWithMasonry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100A8AF343623C5FD0A3177D /* libPods-TestTableViewWithMasonry.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +68,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3433510CBB6DD1515523467E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2CCD500977E55E336B1814C /* libPods-TestTableViewWithMasonry.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		528AD91CB6771B1B93C37E4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E47543F2AC32C5691240AAEC /* Pods-TestTableViewWithMasonry.debug.xcconfig */,
+				4607BEE8A5A6F20C252C634B /* Pods-TestTableViewWithMasonry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5A8E38011BA44F4C00F14B16 = {
 			isa = PBXGroup;
 			children = (
 				5A8E380C1BA44F4C00F14B16 /* TestTableViewWithMasonry */,
 				5A8E38261BA44F4C00F14B16 /* TestTableViewWithMasonryTests */,
 				5A8E380B1BA44F4C00F14B16 /* Products */,
+				528AD91CB6771B1B93C37E4B /* Pods */,
+				3433510CBB6DD1515523467E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +111,8 @@
 				5A8E38111BA44F4C00F14B16 /* AppDelegate.h */,
 				5A8E38121BA44F4C00F14B16 /* AppDelegate.m */,
 				5A8E38141BA44F4C00F14B16 /* ViewController.h */,
+				5A8E38331BA44FF600F14B16 /* TableViewCell.h */,
+				5A8E38341BA44FF600F14B16 /* TableViewCell.m */,
 				5A8E38151BA44F4C00F14B16 /* ViewController.m */,
 				5A8E38171BA44F4C00F14B16 /* Main.storyboard */,
 				5A8E381A1BA44F4C00F14B16 /* Images.xcassets */,
@@ -126,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A8E382D1BA44F4C00F14B16 /* Build configuration list for PBXNativeTarget "TestTableViewWithMasonry" */;
 			buildPhases = (
+				9998FA3DF04AE3C436D51F53 /* Check Pods Manifest.lock */,
 				5A8E38061BA44F4C00F14B16 /* Sources */,
 				5A8E38071BA44F4C00F14B16 /* Frameworks */,
 				5A8E38081BA44F4C00F14B16 /* Resources */,
+				0A47D38AF33B4050E23075F8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,12 +245,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A47D38AF33B4050E23075F8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTableViewWithMasonry/Pods-TestTableViewWithMasonry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9998FA3DF04AE3C436D51F53 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A8E38061BA44F4C00F14B16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5A8E38161BA44F4C00F14B16 /* ViewController.m in Sources */,
+				5A8E38351BA44FF600F14B16 /* TableViewCell.m in Sources */,
 				5A8E38131BA44F4C00F14B16 /* AppDelegate.m in Sources */,
 				5A8E38101BA44F4C00F14B16 /* main.m in Sources */,
 			);
@@ -345,6 +410,7 @@
 		};
 		5A8E382E1BA44F4C00F14B16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E47543F2AC32C5691240AAEC /* Pods-TestTableViewWithMasonry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestTableViewWithMasonry/Info.plist;
@@ -355,6 +421,7 @@
 		};
 		5A8E382F1BA44F4C00F14B16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4607BEE8A5A6F20C252C634B /* Pods-TestTableViewWithMasonry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestTableViewWithMasonry/Info.plist;
@@ -416,6 +483,7 @@
 				5A8E382F1BA44F4C00F14B16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A8E38301BA44F4C00F14B16 /* Build configuration list for PBXNativeTarget "TestTableViewWithMasonryTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +492,7 @@
 				5A8E38321BA44F4C00F14B16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
