@@ -34,7 +34,7 @@
         self.contentLabel.numberOfLines = 0;
     self.contentLabel.preferredMaxLayoutWidth = maxWidth;
     
-    self.contentLabel.backgroundColor = [UIColor redColor];
+    self.contentLabel.backgroundColor = [UIColor lightGrayColor];
     self.contentLabel.lineBreakMode = NSLineBreakByCharWrapping;
 //    self.contentLabel.text = randomString;
     

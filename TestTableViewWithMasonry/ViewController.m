@@ -35,12 +35,17 @@
         NSMutableString *randomString = [[NSMutableString alloc]init];
         int value = (arc4random() % 3) + 1;
         for (int i =0; i< value ;i++) {
-            [randomString appendString:@"重复的文字===='主要是UILabel的高度会有变化，所以这里主要是说说label变化时如何处理'"];
+            [randomString appendString:@"重复的文字,👿😂主要是UILabel的高度会有变化😂😂😂，所以这里主要是说说😂😂label变化时👿👿👿如何处理'"];
             
         }
-        [self.strArr addObject:randomString];
-    
+        NSMutableAttributedString *attriString = [[NSMutableAttributedString alloc] initWithString:randomString];
+        NSRange range=NSMakeRange(0, 4);
+        
+        [attriString addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:49] range:range];
+        [self.strArr addObject:attriString];
+        
     }
+
 
     
 }
@@ -57,7 +62,7 @@
     //@"主要是UILabel的高度会有变化，所以这里主要是说说label变化时如何处理，设置UILabel的时候注意要设置preferredMaxLayoutWidth这个宽度，还有ContentHuggingPriority为UILayoutPriorityRequried"
 
 
-    self.myCell.contentLabel.text = self.strArr[indexPath.row];
+    self.myCell.contentLabel.attributedText = self.strArr[indexPath.row];
     NSLog(@"cell row--%ld",indexPath.row);
 
     return self.myCell;
