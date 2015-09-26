@@ -11,6 +11,4 @@
 @interface TableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *contentLabel;
 @property(copy,nonatomic)NSString *str;
-@property (assign, nonatomic) CGFloat cellHeight; //缓存高度
--(void)configCell;
 @end
