@@ -35,7 +35,7 @@
         NSMutableString *randomString = [[NSMutableString alloc]init];
         int value = (arc4random() % 3) + 1;
         for (int i =0; i< value ;i++) {
-            [randomString appendString:@"重复的文字,👿😂主要是UILabel的高度会有变化😂😂😂，所以这里主要是说说😂😂label变化时👿👿👿如何处理'"];
+            [randomString appendString:@"重复的文字,👿😂主要是UILabel的高度会有\n变化😂😂😂，所以这里主要是说说😂😂label变化时👿👿👿如何处理'"];
             
         }
         NSMutableAttributedString *attriString = [[NSMutableAttributedString alloc] initWithString:randomString];
